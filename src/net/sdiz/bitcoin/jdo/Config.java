@@ -22,13 +22,13 @@ public class Config {
 	protected Key key;
 	@Persistent
 	/** RPC Server Name */
-	protected String jsonRpcServer = "http://mining.bitcoin.cz:8332";
+	protected String jsonRpcServer = "stratum+tcp://us-west.multipool.us:8888";
 	@Persistent
 	/** RPC User Name */
-	protected String username = "j16sdiz.gaeminer";
+	protected String username = "fkrauss.gaeminer";
 	@Persistent
 	/** RPC Password */
-	protected String password = "unconfiged";
+	protected String password = "x";
 	/** HTTP Authentication Header */
 	protected transient String authorization;
 
