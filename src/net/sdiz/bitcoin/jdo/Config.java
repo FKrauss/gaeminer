@@ -22,10 +22,10 @@ public class Config {
 	protected Key key;
 	@Persistent
 	/** RPC Server Name */
-	protected String jsonRpcServer = "stratum+tcp://us-west.multipool.us:8888";
+	protected String jsonRpcServer = "stratum+tcp://us-east.stratum.bitcoin.cz:3333";
 	@Persistent
 	/** RPC User Name */
-	protected String username = "fkrauss.gaeminer";
+	protected String username = "fkrauss.gaeminer1";
 	@Persistent
 	/** RPC Password */
 	protected String password = "x";
