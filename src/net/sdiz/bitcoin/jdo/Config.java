@@ -25,7 +25,7 @@ public class Config {
 	protected String jsonRpcServer = "stratum+tcp://us-east.stratum.bitcoin.cz:3333";
 	@Persistent
 	/** RPC User Name */
-	protected String username = "fkrauss.gaeminer1";
+	protected String username = "FKrauss.gaeminer1";
 	@Persistent
 	/** RPC Password */
 	protected String password = "x";
